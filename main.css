@@ -1,0 +1,135 @@
+body{
+  background-image: url("Images/A-BKY-JC-Tsujiri-1780.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover;
+  height: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+body::-webkit-scrollbar{
+  scroll-behavior: smooth;
+  display: none;
+}
+footer a{
+  display: flex;
+  justify-content: center;
+}
+footer a:link, a:visited{
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  width: max-content;
+}
+a:link, a:visited{
+  text-decoration:none;
+  color:white;
+}
+h1{
+  opacity: 0.8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display:flex;
+  background-color: black;
+  color: yellowgreen;
+  justify-content: center;
+  text-decoration: underline;
+}
+h2{
+  display: inline-flex;
+  width: 100px;
+  font-weight: bolder;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+h2:hover{
+  color: yellowgreen;
+  transition: 0.3s;
+}
+h4{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: solid;
+  border-radius: 6px;
+  border-width: 1px;
+  display: inline-flex;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+}
+h4:hover{
+  border-width: 2px;
+  border-color:yellowgreen;
+  color: black;
+  background-color: white;
+  transition: .3s;
+}
+footer{
+  margin: 0%;
+  padding: 0%;
+  background-color: rgba(0,0,0, 0.8);
+  display: flex;
+  flex-direction: column;
+  flex: 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+  bottom: 0% ;
+}
+button{
+  text-emphasis-color: black;
+  color:white;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom:10px;
+  font-size:xx-large;
+  background-color:transparent;
+  border: transparent;
+  border-radius: 10%;
+  height: 100%;
+  width: 100%;
+}
+button:hover{
+  cursor: pointer;
+  transition: 0.3s;
+  color:yellowgreen;
+  background-color: black;
+  opacity: 0.8;
+}
+button:active{
+  opacity: 0.8;
+}
+.logo{
+  display:flex;
+  justify-content: center;
+  object-fit: contain;
+  }
+
+.menu{
+  padding: 5%;
+  height:80%;
+  display:grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.about{
+  display:flex;
+  justify-content: center;
+  bottom: 0px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+.mLogo{
+  mix-blend-mode:multiply;
+  width: 480px;
+  height: 240px;
+}
+.if{
+  color: initial;
+  border-radius:4px;
+  height: 100px;
+}

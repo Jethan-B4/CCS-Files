@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <title>Tsujiri - Ice Blended</title>
+    <link rel="stylesheet" href="menu.css">
+  </head>
+  <body>
+    <div class="logo">
+        <a href="index.html"><button style="margin:4px">x</button></a>
+      <img class="logoP" src="images/FB_IMG_1670236699250.jpg">
+    </div>
+    <div id="container">
+      <div class="sub">
+        <h1 class="IB-H1" style="width: 260px;">ICE BLENDED</h1>
+        <ul>
+          <li><img src="Images/cate4-3.jpg">
+            <p>Houjicha</p></li>
+          <li><img src="Images/cate4-1.jpg">
+            <p>O-Matcha</p></li>
+          <li><img src="Images/cate4-5.jpg">
+            <p>Yuzu</p></li>
+          <li><img src="Images/cate4-6.jpg">
+            <p>Red Bean</p></li>
+          <li><img src="Images/cate4-7.jpg">
+            <p>Chocolate</p></li>
+        </ul>
+      </div>
+      <div class="transaction">
+        <form name="menu">
+          <div class="top">
+            <input type="text" name="store0" class="store" value="0">
+            <input type="text" name="store1" class="store" value="0">
+            <input type="text" name="store2" class="store" value="0">
+            <input type="text" name="store3" class="store" value="0">
+            <input type="text" name="store4" class="store" value="0">
+            <input type="text" name="houjicha" class="store" value="0">
+            <input type="text" name="omatcha" class="store" value="0">
+            <input type="text" name="yuzu" class="store" value="0">
+            <input type="text" name="red_bean" class="store" value="0">
+            <input type="text" name="choco" class="store" value="0">
+            <input type="reset" class="reset" name="reset">
+        <div class="table">
+        <table class="table0" Border="2px" style="width:340px;height: 280px">
+          <tr>
+            <th>ITEMS</th>
+            <th>Medium</th>
+            <th>Large</th>
+          </tr>
+          <tr>
+            <td class="items">Houjicha</td>
+            <td class="td"><input type="radio" name="ib1" value="150" onclick="houjicha.value = parseInt(ib1=150), store0.value = parseInt(total0.value)">150</td>
+            <td><input type="radio" name="ib1" value="165" onclick="houjicha.value = parseInt(ib1=165)">165</td>
+          </tr>
+          <tr>
+            <td class="items">O-Matcha</td>
+            <td class="td"><input type="radio" name="ib2" value="170" onclick="omatcha.value = parseInt(ib2=170), store1.value = parseInt(total1.value)">170</td>
+            <td><input type="radio" name="ib2" value="185" onclick="omatcha.value = parseInt(ib2=185)">185</td>
+          </tr>
+          <tr>
+            <td class="items">Yuzu</td>
+            <td class="td"><input type="radio" name="ib3" value="165" onclick="yuzu.value = parseInt(ib3=165)">165</td>
+            <td><input type="radio" name="ib3" value="180" onclick="yuzu.value = parseInt(ib3=180)">180</td>
+          </tr>
+          <tr>
+            <td class="items">Red Bean</td>
+            <td class="td"><input type="radio" name="ib4" value="160" onclick="red_bean.value = parseInt(ib4=160)">160</td>
+            <td><input type="radio" name="ib4" value="175" onclick="red_bean.value = parseInt(ib4=175)">175</td>
+          </tr>
+          <tr>
+            <td class="items">Chocolate</td>
+            <td class="td"><input type="radio" name="ib5" value="160" onclick="choco.value = parseInt(ib5=160)">160</td>
+            <td><input type="radio" name="ib5" value="175" onclick="choco.value = parseInt(ib5=175)">175</td>
+          </tr>
+        </table>
+        </div>
+        <div class="table1">
+        <table  class="table0" Border="2px" style="height: 330px; width: 200px; margin-top: 4px;">
+          <tr>
+            <th colspan="2" style="background-color:yellow;">TOPPINGS</th>
+          </tr>
+          <tr>
+            <th class="subth">Whipped<br>Cream</th>
+            <th class="subth" style="padding-left:10px;padding-right:10px;">Red Bean Sauce</th>
+          </tr>
+          <tr>
+            <td class="td">15</td>
+            <td class="td">20</td>
+          </tr>
+          <tr>
+            <td class="td1"><input type="checkbox" name="t1" value="15" onchange="houjicha.value = parseInt(houjicha.value) + parseInt(t1.value)"></td>
+            <td class="td1"><input type="checkbox" name="t2" value="20" onchange="houjicha.value = parseInt(houjicha.value) + parseInt(t2.value)"></td>
+          </tr>
+          <tr>
+            <td class="td1"><input type="checkbox" name="t3" value="15" onchange="omatcha.value = parseInt(omatcha.value) + parseInt(t3.value)"></td>
+            <td class="td1"><input type="checkbox" name="t4" value="20" onchange="omatcha.value = parseInt(omatcha.value) + parseInt(t4.value)"></td>
+          </tr>
+          <tr>
+            <td class="td1"><input type="checkbox" name="t5" value="15" onchange="yuzu.value = parseInt(yuzu.value) + parseInt(t5.value)"></td>
+            <td class="td1"><input type="checkbox" name="t6" value="20" onchange="yuzu.value = parseInt(yuzu.value) + parseInt(t6.value)"></td>
+          </tr>
+          <tr>
+            <td class="td1"><input type="checkbox" name="t7" value="15" onchange="red_bean.value = parseInt(red_bean.value) + parseInt(t7.value)"></td>
+            <td class="td1"><input type="checkbox" name="t8" value="20" onchange="red_bean.value = parseInt(red_bean.value) + parseInt(t8.value)"></td>
+          </tr>
+          <tr>
+            <td class="td1"><input type="checkbox" name="t9" value="15" onchange="choco.value = parseInt(choco.value) + parseInt(t9.value)"></td>
+            <td class="td1"><input type="checkbox" name="t10" value="20" onchange="choco.value = parseInt(choco.value) + parseInt(t10.value)"></td>
+          </tr>
+        </table>
+        </div>
+        </div>
+        <div class="table2">
+        <table class="table0" Border="2px">
+          <tr>
+            <th style="padding: 10px; color: white" id="t2_th1">Quantity</th>
+            <th id="t2_th2">TOTAL</th>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+            <td><input type="number" name="qh" oninput="total0.value = parseInt(houjicha.value)*parseInt(qh.value), store0.value = parseInt(total0.value), gTotal.value = parseInt(store0.value)+parseInt(store1.value)+parseInt(store2.value)+parseInt(store3.value)+parseInt(store4.value)" placeholder="Input Quantity Here"><br>(Houjicha)</td>
+            <td class="td"><input type="text" name="total0" readonly></td>
+          </tr>
+          <tr>
+            <td><input type="number" name="qo" oninput="total1.value = parseInt(omatcha.value)*parseInt(qo.value), store1.value = parseInt(total1.value), gTotal.value = parseInt(store0.value)+parseInt(store1.value)+parseInt(store2.value)+parseInt(store3.value)+parseInt(store4.value)" placeholder="Input Quantity Here"><br>(O-Matcha)</td>
+            <td class="td"><input type="box" name="total1" readonly></td>
+          </tr>
+          <tr>
+            <td><input type="number" name="qy" oninput="total2.value = parseInt(yuzu.value)*parseInt(qy.value), store2.value = parseInt(total2.value),gTotal.value = parseInt(store0.value)+parseInt(store1.value)+parseInt(store2.value)+parseInt(store3.value)+parseInt(store4.value)" placeholder="Input Quantity Here"><br>(Yuzu)</td>
+            <td class="td"><input type="box" name="total2" readonly></td>
+          </tr>
+          <tr>
+            <td><input type="number" name="qr" oninput="total3.value = parseInt(red_bean.value)*parseInt(qr.value), store3.value = parseInt(total3.value),gTotal.value = parseInt(store0.value)+parseInt(store1.value)+parseInt(store2.value)+parseInt(store3.value)+parseInt(store4.value)" placeholder="Input Quantity Here"><br>(Red Bean)</td>
+            <td class="td"><input type="box" name="total3" readonly></td>
+          </tr>
+          <tr>
+            <td><input type="number" name="qc" oninput="total4.value = parseInt(choco.value)*parseInt(qc.value), store4.value = parseInt(total4.value),gTotal.value = parseInt(store0.value)+parseInt(store1.value)+parseInt(store2.value)+parseInt(store3.value)+parseInt(store4.value)" placeholder="Input Quantity Here"><br>(Chocolate)</td>
+            <td class="td"><input type="box" name="total4" readonly></td>
+          </tr>
+        </table>
+        <table  styke="boder-collapse;collapse;" class="table3">
+          <tr>
+            <th>GRAND TOTAL :</th>
+            <td style="border: black solid;background-color:yellowgreen;" class="cashier"><input type="text"  name="gTotal"   readonly></td>
+          </tr>
+          <tr>
+            <th>Cash Rendered :</th>
+            <td style="border:black solid; background-color: white;" class="cashier0"><input type="text" id="cash" name="cash" oninput="change.value = parseInt(cash.value)-parseInt(gTotal.value)" placeholder="Input Payment Here"></td>
+          </tr>
+          <tr>
+            <th>CHANGE :</th>
+            <td style="border: black solid; background-color: green;" class="cashier"><input type="text" name="change" readonly></td>
+          </tr>
+        </table>
+        </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
